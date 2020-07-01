@@ -1,0 +1,164 @@
+body {
+	margin: 0px;
+	font-family: "Roboto", sans-serif;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+p {
+	color: dimgray;
+}
+
+.anchor {
+	margin-top: 50px;
+}
+
+section {
+	height: 700px;
+	padding-bottom: 100px;
+}
+
+.text-highlighter {
+	color: salmon;
+}
+
+.half-width {
+	width: 38%;
+	float: left;
+	margin-left: 5%;
+	padding: 2%;
+}
+
+.half-width img {
+	width: 100%;
+}
+
+.top-banner {
+	background-image: url("images/header-bg.png");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+}
+
+#top-banner-text {
+	margin-top: 160px;
+}
+
+#top-banner-image {
+	margin-top: 100px;
+}
+
+.link-button {
+	background-image: linear-gradient(45deg, deeppink, salmon);
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+.biography {
+	background-image: url("images/biography-bg.png");
+	background-repeat: no-repeat;
+	background-position: center left;
+	padding: 100px;
+}
+
+#biography-text {
+	margin-top: 60px;
+}
+
+.latest-work {
+	background-image: url("images/latest-work-bg.png");
+	background-position: center;
+	padding: 100px;
+}
+
+.latest-work h2 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.work-image {
+	width: 30%;
+	float: left;
+	margin-left: 1%;
+}
+
+.work-image img {
+	width: 100%;
+}
+
+.clients-feedback {
+	background-image: url("images/footer-bg.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+}
+
+.clients-info {
+	margin-top: 100px;
+}
+
+.quote {
+	width: 27%;
+	display: block;
+	margin: 50px auto;
+}
+
+.message {
+	background-image: linear-gradient(45deg, deeppink, salmon);
+	width: 50%;
+	margin: 0px auto;
+	padding: 10px 30px;
+	color: white;
+	margin-top: 40px;
+}
+
+.message a {
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.blogs {
+	background-image: url("images/biography-bg.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.blog {
+	width: 28%;
+	float: left;
+	margin-left: 3%;
+	padding-left: 2%;
+	box-shadow: 10px 10px 40px gray;
+	height: 600px;
+}
+
+.blogs h2 {
+	text-align: center;
+	margin: 40px 0px;
+	padding: 20px;
+}
+
+.blog img {
+	width: 100%;
+}
+
+footer p {
+	margin-top: 100px;
+	text-align: center;
+	font-size: 12px;
+}
